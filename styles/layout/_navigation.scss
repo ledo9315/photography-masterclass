@@ -1,0 +1,64 @@
+@use "../abstracts" as *;
+
+.navigation__list-item {
+    list-style-type: none;
+    display: block;
+    float: left;
+
+    &--mobile-hidden {
+        @media (max-width: $breakpoint-md) {
+            display: none;
+        }
+    }
+
+    &--menu {
+        float: right;
+        font-size: 3rem;
+    }
+}
+
+.navigation__list-item-link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0.25rem 0.25rem 0.25rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: block;
+    text-shadow: 0 0 0.5rem black;
+
+    &:hover {
+        border-bottom: 0.15rem solid $color-primary;
+    }
+
+    .navigation__list-item--menu & {
+        margin-top: 0.4rem;
+        margin-right: 0;
+        padding-right: 0;
+
+        &:hover {
+            border-bottom: none;
+            color: rgb(200, 200, 200);
+        }
+    }
+
+    &--logo {
+        margin-top: 0.9rem;
+        padding-left: 0;
+        margin-left: 0;
+
+        &:hover {
+            border-bottom: none;
+            color: rgb(200, 200, 200);
+        }
+    }
+}
+
+
+.navigation__list-item-logo {
+    width: 4rem;
+    height: 4rem;
+    fill: currentColor; 
+}
+

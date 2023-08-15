@@ -1,0 +1,45 @@
+@use "sass:color";
+@use "../abstracts" as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Jost', sans-serif;
+
+    @media (min-width: 100em) {
+        font-size: 133%;
+    }
+    @media (min-width: 133em) {
+        font-size: 166%;
+    }
+    @media (min-width: 166em) {
+        font-size: 200%;
+    }
+
+    @media (max-width: $breakpoint-xxs) {
+        font-size: 75%;
+    }
+}
+
+input,
+select {
+    font-family: inherit;
+}
+
+@mixin -generate-selection() {
+    color: white;
+    background-color: color.scale($color-secondary, $alpha: -20%);
+}
+
+::-moz-selection {
+    @include -generate-selection();
+}  
+
+::selection {
+    @include -generate-selection();
+}

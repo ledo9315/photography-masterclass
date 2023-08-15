@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Photography Masterclass</title>
+
+        <link href="./dist/main.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <input type="checkbox" class="sidenav__opened" id="sidenav__opened" autocomplete="off" />
+        <header class="header">
+            <div class="header__container">
+                <nav class="navigation">
+                    <ul>
+                        <li class="navigation__list-item">
+                            <a class="navigation__list-item-link navigation__list-item-link--logo" href="#">
+                                <svg class="navigation__list-item-logo">
+                                    <use href="images/icons.svg#icon-logo" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="navigation__list-item navigation__list-item--mobile-hidden">
+                            <a class="navigation__list-item-link" href="#">Discover</a>
+                        </li>
+                        <li class="navigation__list-item navigation__list-item--mobile-hidden">
+                            <a class="navigation__list-item-link" href="#">Where to go</a>
+                        </li>
+                        <li class="navigation__list-item navigation__list-item--mobile-hidden">
+                            <a class="navigation__list-item-link" href="#">What to do</a>
+                        </li>
+                        <li class="navigation__list-item navigation__list-item--mobile-hidden">
+                            <a class="navigation__list-item-link" href="#">Plan your photos</a>
+                        </li>
+                        <li class="navigation__list-item navigation__list-item--menu">
+                            <label class="navigation__list-item-link" for="sidenav__opened">
+                                <svg class="icon">
+                                    <use href="images/icons.svg#icon-menu" />
+                                </svg>
+                            </label>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__heading-container">
+                    <h1 class="header__heading-main">Photography<br /> Masterclass</h1>
+                    <p class="header__heading-sub">Master landscape photography in 10 days</p>
+                </div>
+            </div>
+            <div class="header__slope"></div>
+        </header>
+        <section class="motivation">
+            <div class="container">
+                <div class="motivation__column-text">
+                    <h2 class="motivation__text-heading">Warum Landschafts&shy;fotografie?</h2>
+                    <p class="motivation__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. aecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="motivation__column-images">
+                    <picture>
+                        <source sizes="(max-width: 600px) 50vw, 550px" srcset="dist/images/motivation/pexels-simon-migaj-747964.150w.webp 150w, dist/images/motivation/pexels-simon-migaj-747964.300w.webp 300w, dist/images/motivation/pexels-simon-migaj-747964.600w.webp 600w, dist/images/motivation/pexels-simon-migaj-747964.900w.webp 900w" type="image/webp" />
+                        <source sizes="(max-width: 600px) 50vw, 550px" srcset="dist/images/motivation/pexels-simon-migaj-747964.150w.jpeg 150w, dist/images/motivation/pexels-simon-migaj-747964.300w.jpeg 300w, dist/images/motivation/pexels-simon-migaj-747964.600w.jpeg 600w, dist/images/motivation/pexels-simon-migaj-747964.900w.jpeg 900w" />
+                        <img class="motivation__image motivation__image--first" src="images/motivation/pexels-simon-migaj-747964.jpg" alt="" />
+                    </picture>
+                    <picture>
+                        <source sizes="(max-width: 600px) 33vw, 280px" srcset="dist/images/motivation/pexels-jacub-gomez-1152043.150w.webp 150w, dist/images/motivation/pexels-jacub-gomez-1152043.300w.webp 300w, dist/images/motivation/pexels-jacub-gomez-1152043.600w.webp 600w, dist/images/motivation/pexels-jacub-gomez-1152043.900w.webp 900w" type="image/webp" />
+                        <source sizes="(max-width: 600px) 33vw, 280px" srcset="dist/images/motivation/pexels-jacub-gomez-1152043.150w.jpeg 150w, dist/images/motivation/pexels-jacub-gomez-1152043.300w.jpeg 300w, dist/images/motivation/pexels-jacub-gomez-1152043.600w.jpeg 600w, dist/images/motivation/pexels-jacub-gomez-1152043.900w.jpeg 900w" />
+                        <img class="motivation__image motivation__image--second" src="images/motivation/pexels-jacub-gomez-1152043.jpg" alt="" />
+                    </picture>
+                    <picture>
+                        <source sizes="(max-width: 600px) 36vw, 320px" srcset="dist/images/motivation/pexels-jaime-reimer-2662086.150w.webp 150w, dist/images/motivation/pexels-jaime-reimer-2662086.300w.webp 300w, dist/images/motivation/pexels-jaime-reimer-2662086.600w.webp 600w, dist/images/motivation/pexels-jaime-reimer-2662086.900w.webp 900w" type="image/webp" /> 
+                        <source sizes="(max-width: 600px) 36vw, 320px" srcset="dist/images/motivation/pexels-jaime-reimer-2662086.150w.jpeg 150w, dist/images/motivation/pexels-jaime-reimer-2662086.300w.jpeg 300w, dist/images/motivation/pexels-jaime-reimer-2662086.600w.jpeg 600w, dist/images/motivation/pexels-jaime-reimer-2662086.900w.jpeg 900w" /> 
+                        <img class="motivation__image motivation__image--third" src="images/motivation/pexels-jaime-reimer-2662086.jpg" alt="" />
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="tours">
+            <div class="tours__container">
+                <h2 class="tours__heading">Unsere Photografie-Touren</h2>
+
+                <div class="tours__cards">
+                    <div class="tours__card">
+                        <img class="tours__card-img" src="images/tours/pexels-mirco-violent-blur-4033244.jpg" alt="Photographer" />
+                        <div class="tours__card-icon-background"></div>
+                        <div class="tours__card-icon-container">
+                            <svg class="tours__card-icon">
+                                <use href="images/icons.svg#icon-tours-1" />
+                            </svg>
+                        </div>
+                        <div class="tours__card-content">
+                            <h5 class="tours__card-heading">Tour durch die Wüste</h5>
+                            <p class="tours__card-location">
+                                <span class="tours__card-location-icon">
+                                    <svg class="icon">
+                                        <use href="images/icons.svg#icon-location" />
+                                    </svg>
+                                </span>
+                                <span class="tours__card-location-text">Bateen Liwa, UAE</span>
+                            </p>
+                            <p class="tours__card-desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Sed diam nonummy nibh.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tours__card">
+                        <img class="tours__card-img" src="images/tours/pexels-jack-redgate-2929227-cropped.jpg" alt="Photographer" />
+                        <div class="tours__card-icon-background"></div>
+                        <div class="tours__card-icon-container">
+                            <svg class="tours__card-icon">
+                                <use href="images/icons.svg#icon-tours-mountain" />
+                            </svg>
+                        </div>
+                        <div class="tours__card-content">
+                            <h5 class="tours__card-heading">Drohnen-Fotografie</h5>
+                            <p class="tours__card-location">
+                                <span class="tours__card-location-icon">
+                                    <svg class="icon">
+                                        <use href="images/icons.svg#icon-location" />
+                                    </svg>
+                                </span>
+                                <span class="tours__card-location-text">Porvoo, Finland</span>
+                            </p>
+                            <p class="tours__card-desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Sed diam nonummy nibh.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tours__card">
+                        <img class="tours__card-img" src="images/tours/pexels-gantas-vaiciulenas-4209628.jpg" alt="Photographer with backpack" />
+                        <div class="tours__card-icon-background"></div>
+                        <div class="tours__card-icon-container">
+                            <svg class="tours__card-icon">
+                                <use href="images/icons.svg#icon-tours-compass" />
+                            </svg>
+                        </div>
+                        <div class="tours__card-content">
+                            <h5 class="tours__card-heading">Bergsteiger-Touren</h5>
+                            <p class="tours__card-location">
+                                <span class="tours__card-location-icon">
+                                    <svg class="icon">
+                                        <use href="images/icons.svg#icon-location" />
+                                    </svg>
+                                </span>
+                                <span class="tours__card-location-text">Montreal, Kanada</span>
+                            </p>
+                            <p class="tours__card-desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Sed diam nonummy nibh.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tours__card">
+                        <img class="tours__card-img" src="images/tours/pexels-matheus-bertelli-4558421.jpg" alt="Photographer with backpack" />
+                        <div class="tours__card-icon-background"></div>
+                        <div class="tours__card-icon-container">
+                            <svg class="tours__card-icon">
+                                <use href="images/icons.svg#icon-tours-map" />
+                            </svg>
+                        </div>
+                        <div class="tours__card-content">
+                            <h5 class="tours__card-heading">Eiswanderungen</h5>
+                            <p class="tours__card-location">
+                                <span class="tours__card-location-icon">
+                                    <svg class="icon">
+                                        <use href="images/icons.svg#icon-location" />
+                                    </svg>
+                                </span>
+                                <span class="tours__card-location-text">Nuuk, Grönland</span>
+                            </p>
+                            <p class="tours__card-desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Sed diam nonummy nibh.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tours__card">
+                        <img class="tours__card-img" src="images/tours/pexels-oziel-gomez-1578459.jpg" alt="Photographer walking in snow" />
+                        <div class="tours__card-icon-background"></div>
+                        <div class="tours__card-icon-container">
+                            <svg class="tours__card-icon">
+                                <use href="images/icons.svg#icon-tours-path" />
+                            </svg>
+                        </div>
+                        <div class="tours__card-content">
+                            <h5 class="tours__card-heading">Polarbären-Fotografie</h5>
+                            <p class="tours__card-location">
+                                <span class="tours__card-location-icon">
+                                    <svg class="icon">
+                                        <use href="images/icons.svg#icon-location" />
+                                    </svg>
+                                </span>
+                                <span class="tours__card-location-text">Antarctica</span>
+                            </p>
+                            <p class="tours__card-desc">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Sed diam nonummy nibh.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="story">
+            <video class="story__video" muted loop playsinline>
+                <source type="video/webm" src="videos/flug2.webm" />
+                <source type="video/mp4" src="videos/flug2.mp4" />
+            </video>
+            <div class="story__video-colorize"></div>
+
+            <div class="story__container">
+                <h3 class="story__heading">Unsere Geschichte</h3>
+                <div class="story__desc">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu porta quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam nec mauris nec nunc vulputate faucibus. Suspendisse euismod sapien a eros molestie tempor. Sed nulla mi, lobortis vel euismod id, consectetur et felis.</p>
+                    <p>Morbi volutpat at nibh eu vehicula. Integer vel hendrerit turpis, ut porttitor metus. Duis volutpat mauris a velit aliquam venenatis. Phasellus ut vulputate libero, quis convallis dui. Duis et mi eu enim tempus feugiat a ut neque. Praesent eget justo eget nulla pharetra dapibus.</p>
+                    <p>Etiam pulvinar arcu non tempus suscipit. Cras mauris tellus, molestie non dapibus sit amet, sodales a nulla. Nulla ullamcorper dolor vel magna aliquet venenatis. Nullam at mi elit. Phasellus sit amet urna quis mi maximus volutpat sit amet ut leo. </p>
+                </div>
+                <div class="story__book">
+                    <a class="button button--white button--background-blur" href="#booking-modal">Book now</a>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div class="offers__container">
+                    <div class="offers__card-container offers__card-container--flip">
+                        <div class="offers__card">
+                            <div class="offers__card-primary">
+                                <div class="offers__image-container">
+                                    <img class="offers__image" src="images/offers/pexels-min-an-898766.jpg" alt="" />
+                                </div>
+                                <div class="offers__content">
+                                    <h4 class="offers__content-heading">Fotografie-Schnellkurs</h4>
+                                    <p class="offers__content-subheading">Lorem ipsum dolor sit amet.</p>
+                                    <div class="offers__content-info">
+                                        <div class="offers__content-info-duration">
+                                            <svg class="icon">
+                                                <use href="images/icons.svg#icon-clock" />
+                                            </svg>
+                                            <span class="offers__content-info-duration-text"><strong>3</strong> Stunden</span>
+                                        </div>
+                                        <div class="offers__content-info-level">
+                                            <svg class="icon">
+                                                <use href="images/icons.svg#icon-level-beginner" />
+                                            </svg>
+                                            <span class="offers__content-info-duration-text">Anfänger</span>
+                                        </div>
+                                    </div>
+                                    <div class="offers__content-price-container">
+                                        jetzt nur:
+                                        <strong class="offers__content-price">329,99 €</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offers__card-hover">
+                                <a href="#booking-modal" class="button button--slim button--secondary">Jetzt buchen!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offers__card-container offers__card-container--3d">
+                        <div class="offers__card">
+                            <div class="offers__card-primary">
+                                <div class="offers__image-container">
+                                    <img class="offers__image" src="images/offers/pexels-craig-adderley-1724198-cropped.jpg" alt="" />
+                                </div>
+                                <div class="offers__content">
+                                    <h4 class="offers__content-heading">Porträt-Grundkurs</h4>
+                                    <p class="offers__content-subheading">Lorem ipsum dolor sit amet.</p>
+                                    <div class="offers__content-info">
+                                        <div class="offers__content-info-duration">
+                                            <svg class="icon">
+                                                <use href="images/icons.svg#icon-clock" />
+                                            </svg>
+                                            <span class="offers__content-info-duration-text"><strong>5</strong> Stunden</span>
+                                        </div>
+                                        <div class="offers__content-info-level">
+                                            <svg class="icon">
+                                                <use href="images/icons.svg#icon-level-beginner" />
+                                            </svg>
+                                            <span class="offers__content-info-duration-text">Anfänger</span>
+                                        </div>
+                                    </div>
+                                    <div class="offers__content-price-container">
+                                        jetzt nur:
+                                        <strong class="offers__content-price">639,99 €</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offers__card-hover">
+                                <a href="#booking-modal" class="button button--slim button--secondary">Jetzt buchen!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offers__card-container  offers__card-container--3d-hover">
+                        <div class="offers__card">
+                            <div class="offers__card-primary">
+                                <div class="offers__image-container">
+                                    <img class="offers__image" src="images/offers/pexels-christian-diokno-5019878.jpg" alt="" />
+                                </div>
+                                <div class="offers__content">
+                                    <h4 class="offers__content-heading">Porträt-Profikurs</h4>
+                                    <p class="offers__content-subheading">Lorem ipsum dolor sit amet.</p>
+                                    <div class="offers__content-info">
+                                        <div class="offers__content-info-duration">
+                                            <svg class="icon">
+                                                <use href="images/icons.svg#icon-clock" />
+                                            </svg>
+                                            <span class="offers__content-info-duration-text"><strong>7</strong> Stunden</span>
+                                        </div>
+                                        <div class="offers__content-info-level">
+                                            <svg class="icon">
+                                                <use href="images/icons.svg#icon-level-advanced" />
+                                            </svg>
+                                            <span class="offers__content-info-duration-text">Fortgeschrittene</span>
+                                        </div>
+                                    </div>
+                                    <div class="offers__content-price-container">
+                                        jetzt nur:
+                                        <strong class="offers__content-price">929,99 €</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="offers__card-hover">
+                                <a href="#booking-modal" class="button button--slim button--secondary">Jetzt buchen!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="gallery__container">
+                <h3 class="gallery__heading">Bilder von unseren Studierenden</h3>
+
+                <div class="gallery__list">
+                    <a class="gallery__list-item gallery__list-item--first" href="#">
+                        <img class="gallery__list-item-image" src="./images/gallery/pexels-frans-van-heerden-624015.jpg" alt="" />
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <img class="gallery__list-item-image" src="./images/gallery/pexels-jaime-reimer-2662116.jpg" alt="" />
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <img class="gallery__list-item-image" src="./images/gallery/pexels-jaime-reimer-2749500.jpg" alt="" />
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <img class="gallery__list-item-image" src="./images/gallery/pexels-james-wheeler-417074.jpg" alt="" />
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <img class="gallery__list-item-image" src="./images/gallery/pexels-sasha-prasastika-2695391.jpg" alt="" />
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <img class="gallery__list-item-image" src="./images/gallery/pexels-vishal-amin-910307.jpg" alt="" />
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <img class="gallery__list-item-image" src="./images/gallery/pexels-burst-374870.jpg" alt="" />
+                    </a>
+                </div>
+                <input class="gallery__cb-toggle" id="gallery__cb-toggle" type="checkbox" autocomplete="off" />
+                <div class="gallery__more-button-container">
+                    <label class="button" for="gallery__cb-toggle">Mehr</label>
+                </div>
+                <div class="gallery__list gallery__list--cb-toggle">
+                    <a class="gallery__list-item gallery__list-item--last" href="#">
+                        <span class="gallery__list-item-bg-image" style="background-image:url('./images/gallery2/pexels-kei-scampa-4507967.jpg');"></span>
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <span class="gallery__list-item-bg-image" style="background-image: url('./images/gallery2/pexels-max-ravier-3331094.jpg');"></span>
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <span class="gallery__list-item-bg-image" style="background-image:url('./images/gallery2/pexels-michael-block-3225517.jpg');"></span>
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <span class="gallery__list-item-bg-image" style="background-image:url('./images/gallery2/pexels-sam-kolder-2387873.jpg');"></span>
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <span class="gallery__list-item-bg-image" style="background-image:url('./images/gallery2/pexels-tobias-bjorkli-2113566.jpg');"></span>
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <span class="gallery__list-item-bg-image" style="background-image:url('./images/gallery2/pexels-trace-hudson-2365457.jpg');"></span>
+                    </a>
+                    <a class="gallery__list-item" href="#">
+                        <span class="gallery__list-item-bg-image" style="background-image:url('./images/gallery2/pexels-trace-hudson-2400594.jpg');"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__slideshow">
+                    <picture>
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-arun-thomas-2093578.150w.webp 150w, dist/images/about/pexels-arun-thomas-2093578.300w.webp 300w, dist/images/about/pexels-arun-thomas-2093578.600w.webp 600w, dist/images/about/pexels-arun-thomas-2093578.900w.webp 900w, dist/images/about/pexels-arun-thomas-2093578.1200w.webp 1200w" type="image/webp" />
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-arun-thomas-2093578.150w.jpeg 150w, dist/images/about/pexels-arun-thomas-2093578.300w.jpeg 300w, dist/images/about/pexels-arun-thomas-2093578.600w.jpeg 600w, dist/images/about/pexels-arun-thomas-2093578.900w.jpeg 900w, dist/images/about/pexels-arun-thomas-2093578.1200w.jpeg 1200w" />
+                        <img class="about__img" src="images/about/pexels-arun-thomas-2093578.jpg" alt="" />
+                    </picture>
+                    <picture>
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-fujifilm-north-america-3497183.150w.webp 150w, dist/images/about/pexels-fujifilm-north-america-3497183.300w.webp 300w, dist/images/about/pexels-fujifilm-north-america-3497183.600w.webp 600w, dist/images/about/pexels-fujifilm-north-america-3497183.900w.webp 900w, dist/images/about/pexels-fujifilm-north-america-3497183.1200w.webp 1200w" type="image/webp" />
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-fujifilm-north-america-3497183.150w.jpeg 150w, dist/images/about/pexels-fujifilm-north-america-3497183.300w.jpeg 300w, dist/images/about/pexels-fujifilm-north-america-3497183.600w.jpeg 600w, dist/images/about/pexels-fujifilm-north-america-3497183.900w.jpeg 900w, dist/images/about/pexels-fujifilm-north-america-3497183.1200w.jpeg 1200w" />
+                        <img class="about__img about__img--slideshow about__img--slideshow-1" src="images/about/pexels-fujifilm-north-america-3497183.jpg" alt="" />
+                    </picture>
+                    <picture>
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-kaique-rocha-598917.150w.webp 150w, dist/images/about/pexels-kaique-rocha-598917.300w.webp 300w, dist/images/about/pexels-kaique-rocha-598917.600w.webp 600w, dist/images/about/pexels-kaique-rocha-598917.900w.webp 900w, dist/images/about/pexels-kaique-rocha-598917.1200w.webp 1200w" type="image/webp" />
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-kaique-rocha-598917.150w.jpeg 150w, dist/images/about/pexels-kaique-rocha-598917.300w.jpeg 300w, dist/images/about/pexels-kaique-rocha-598917.600w.jpeg 600w, dist/images/about/pexels-kaique-rocha-598917.900w.jpeg 900w, dist/images/about/pexels-kaique-rocha-598917.1200w.jpeg 1200w" />
+                        <img class="about__img about__img--slideshow about__img--slideshow-2" src="images/about/pexels-kaique-rocha-598917.jpg" alt="" />
+                    </picture>
+                    <picture>
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-matt-hardy-2179205.150w.webp 150w, dist/images/about/pexels-matt-hardy-2179205.300w.webp 300w, dist/images/about/pexels-matt-hardy-2179205.600w.webp 600w, dist/images/about/pexels-matt-hardy-2179205.900w.webp 900w, dist/images/about/pexels-matt-hardy-2179205.1200w.webp 1200w" type="image/webp" />
+                        <source sizes="(max-width: 500px) 150px, (max-width: 770px) 200px, 460px" srcset="dist/images/about/pexels-matt-hardy-2179205.150w.jpeg 150w, dist/images/about/pexels-matt-hardy-2179205.300w.jpeg 300w, dist/images/about/pexels-matt-hardy-2179205.600w.jpeg 600w, dist/images/about/pexels-matt-hardy-2179205.900w.webp 900w, dist/images/about/pexels-matt-hardy-2179205.1200w.jpeg 1200w" />
+                        <img class="about__img about__img--slideshow about__img--slideshow-3" src="images/about/pexels-matt-hardy-2179205.jpg" alt="" />
+                    </picture>
+                </div>
+                <div class="about__text">
+                    <h3 class="about__heading">Über mich</h3>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Dui faucibus in ornare quam. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Sagittis vitae et leo duis ut diam quam.</p>
+                    <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae. Eros in cursus turpis massa tincidunt dui ut ornare lectus. Ut sem viverra aliquet eget sit amet tellus. Ut pharetra sit amet aliquam id diam maecenas ultricies.</p>
+                    <blockquote class="about__quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum consectetur libero id faucibus nisl tincidunt. Quam pellentesque nec nam aliquam sem.</blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="footer__container">
+                <div class="footer__text-column">
+                    <h3 class="footer__heading">Ready to Amp-up your skills?</h3>
+                    <p class="footer__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+                    <div class="footer__contact-item">
+                        <div class="footer__contact-item-icon">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-email" />
+                            </svg>
+                        </div>
+                        <a class="footer__contact-item-link" href="mailto:contact@example.com" target="_blank">contact@example.com</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <div class="footer__contact-item-icon footer__contact-item-icon--phone">
+                            <svg class="icon">
+                                <use href="images/icons.svg#icon-telephone" />
+                            </svg>
+                        </div>
+                        <a class="footer__contact-item-link" href="tel:+49123456789" target="_blank">+49 123 456 789</a>
+                    </div>
+                </div>
+                <div class="footer__logo-column">
+                    <div class="footer__logo-container">
+                        <div class="footer__logo-icon">
+                            <svg class="icon icon--no-position">
+                                <use href="images/icons.svg#icon-logo" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer__footer">
+                <ul class="footer__footer-list">
+                    <li>
+                        <a class="footer__footer-link" href="#">License</a>
+                    </li>
+                    <li>
+                        <a class="footer__footer-link" href="#">Privacy &amp; cookies</a>
+                    </li>
+                    <li>
+                        <a class="footer__footer-link" href="#">Terms of use</a>
+                    </li>
+                    <li>
+                        <a class="footer__footer-link" href="#">Trademarks</a>
+                    </li>
+                </ul>
+            </footer>
+        </section>
+        <section class="booking-modal" id="booking-modal">
+            <div class="booking-modal__content">
+                <a class="booking-modal__close" href="#">x</a>
+                <h3 class="booking-modal__heading">Jetzt Buchungsanfrage stellen!</h3>
+                <p class="booking-modal__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <form class="form" action="#">
+                    <div class="form__horizontal">
+                        <div class="form__group">
+                            <input type="text" class="form__input" id="booking-modal-name" placeholder="Name" />
+                            <label class="form__label" for="booking-modal-name">Name</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input" id="booking-modal-email" placeholder="E-Mail" />
+                            <label class="form__label" for="booking-modal-email">E-Mail</label>
+                        </div>
+                    </div>
+
+                    <div class="form__radio-group">
+                        <div class="form__radio-item form__radio-item--white">
+                            <input class="form__radio-item-radio" type="radio" name="type" value="private" id="booking-modal-type-private" />
+                            <label class="form__radio-item-label" for="booking-modal-type-private">Private Tour buchen</label>
+                        </div>
+                        <div class="form__radio-item form__radio-item--white">
+                            <input class="form__radio-item-radio" type="radio" name="type" value="group" id="booking-modal-type-group" />
+                            <label class="form__radio-item-label" for="booking-modal-type-group">Gruppentour buchen</label>
+                        </div>
+                    </div>
+                    
+                    <div class="booking-modal__submit-container">
+                        <input type="submit" class="button button--form" value="Anfrage abschicken!" />
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="sidenav">
+            <label for="sidenav__opened" class="sidenav__background"></label>
+            <div class="sidenav__container">
+                <label for="sidenav__opened" class="sidenav__close">X</label>
+                <nav>
+                    <ul class="sidenav__nav">
+                        <li><a href="#" class="sidenav__nav-link">Startseite</a></li>
+                        <li><a href="#" class="sidenav__nav-link">Kontakt</a></li>
+                        <li><a href="#" class="sidenav__nav-link">Über uns</a></li>
+                        <li><a href="#" class="sidenav__nav-link">Impressum</a></li>
+                        <li><a href="#" class="sidenav__nav-link">Datenschutzerklärung</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Bux fix for Chrome: https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load -->
+        <script> </script>
+
+        <script src="scripts/main.js" async></script>
+    </body>
+</html>
